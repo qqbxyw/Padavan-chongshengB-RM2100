@@ -77,7 +77,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_KOOLPROXY=n" >> .config #KP广告过滤
         ##广告管理##
         ##DNS服务##
-        echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #集成adguardhome执行文件（已更新到105.4版本，19.3M左右，请注意固件大小)
+        echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #集成adguardhome执行文件（已更新到104.3版本，19.3M左右，请注意固件大小)
         echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=n" >> .config #smartdns
         echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #阿里DDNS
         ##DNS服务##
